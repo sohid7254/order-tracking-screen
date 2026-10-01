@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{--bg:#EEF1EE;--card:#fff;--ink:#16211C;--mute:#5E6B64;--line:#DCE3DE;--skel:#E3E9E5;--brand:#0E6B5A;--brand-s:#DDF0EA;--warn:#A4560A;--warn-s:#FCEFDC;--bad:#B3261E;--bad-s:#FBE6E3}
+@media (prefers-color-scheme:dark){:root{--bg:#0F1512;--card:#18211D;--ink:#EAF1ED;--mute:#9AABA2;--line:#2A3731;--skel:#24312B;--brand:#4CC2A8;--brand-s:#163A31;--warn:#F0A94F;--warn-s:#3A2A14;--bad:#FF8A80;--bad-s:#3F1B18}}
+body{background:var(--bg);color:var(--ink)}
+:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+@keyframes sheet-up{from{transform:translateY(40px);opacity:0}}
+.sheet-up{animation:sheet-up .22s ease-out}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+body{margin:0;font-family:Figtree,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px;line-height:1.375}

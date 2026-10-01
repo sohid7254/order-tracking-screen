@@ -1,0 +1,110 @@
+================================================================================
+AI PROMPT HISTORY — Task 1: Order Tracking Screen
+================================================================================
+
+--------------------------------------------------------------------------------
+Prompt 1:
+--------------------------------------------------------------------------------
+does this app are following all the requirement given images?
+
+[Attached Images: Task 1 — Order Tracking Screen specification screenshots]
+
+--------------------------------------------------------------------------------
+Prompt 2:
+--------------------------------------------------------------------------------
+Continue
+
+--------------------------------------------------------------------------------
+Prompt 3:
+--------------------------------------------------------------------------------
+Task 1 — Order Tracking Screen
+Max score: 40
+
+Design and implement a modern, professional mobile Order Tracking screen for an e-commerce application.
+
+The current application only displays:
+
+Processing
+
+Shipped
+
+Out for Delivery
+
+Delivered
+
+Users report that the current status is difficult to understand. Redesign and implement the experience so delivery status is clear at a glance.
+
+Requirements:
+
+Clear visual delivery progress/timeline
+
+Current order status
+
+Estimated delivery date/time
+
+Order/product summary
+
+Clear way to contact support
+
+Appropriate loading/empty/error states where relevant
+
+Responsive design for approximately 360–430px mobile widths
+
+Clean spacing, typography, hierarchy, and visual consistency
+
+Meaningful interactions such as viewing order details, contacting support, or reporting a delivery issue
+
+The UI must handle all three situations:
+
+Delayed Order — the estimated delivery time has passed or the order is significantly delayed. Clearly communicate the delay and provide an appropriate next step.
+
+Delivered but Not Received — the system says the order was delivered, but the customer reports they did not receive it. Provide an appropriate next step or support action.
+
+Tracking Not Available Yet — the order exists, but tracking information is not available yet. Avoid an empty or broken-looking screen.
+
+Show how the same product experience adapts to all three states.
+
+Technical requirements are flexible: React.js / Next.js / another frontend framework; CSS / Tailwind / CSS Modules / another styling approach; any reasonable UI/icon library. Backend integration is not required — mock/static data is acceptable.
+
+Does this requirement follows my project task 
+
+--------------------------------------------------------------------------------
+Prompt 4:
+--------------------------------------------------------------------------------
+How can I give ai prompt history
+
+--------------------------------------------------------------------------------
+Prompt 5:
+--------------------------------------------------------------------------------
+I was instructed like this
+AI PROMPT HISTORY — MANDATORY
+
+If you use ANY AI tool during the assessment, you must submit the COMPLETE prompt history for EVERY AI tool used for this specific assessment project.
+
+The AI prompt history must be submitted inside the Git repository as a separate text file.
+
+Required file:
+
+AI_PROMPT_HISTORY.txt
+
+The file must contain:
+
+- Every prompt, question, instruction, or request sent to AI for this specific assessment project
+- Prompts from every AI tool used for this specific assessment project
+- All prompts in the exact order they were sent
+- No omitted prompts
+- No rewritten prompts
+- No combined prompts
+- No summarized prompts
+
+The AI prompt history must only include prompts related to this assessment project. Do not include prompts from unrelated projects, previous work, personal conversations, or other tasks.
+
+The AI_PROMPT_HISTORY.txt file must be committed and included in the submitted Git repository.
+
+If you used multiple AI tools, include the complete prompt history from every AI tool in the same AI_PROMPT_HISTORY.txt file, maintaining the original chronological order.
+
+If possible, you may also provide an exported/shared conversation link accessible without login. However, the AI_PROMPT_HISTORY.txt file inside the submitted Git repository is mandatory.
+
+If you did not use AI, create the AI_PROMPT_HISTORY.txt file and write:
+
+"N/A — I did not use AI tools."
